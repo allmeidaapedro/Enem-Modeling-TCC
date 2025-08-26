@@ -1,5 +1,4 @@
 feature-engine>=1.8.3,
-flask>=3.1.1,
 ipykernel>=6.29.5,
 lightgbm>=4.6.0,
 matplotlib>=3.10.3,
