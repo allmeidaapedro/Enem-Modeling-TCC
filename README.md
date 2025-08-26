@@ -151,15 +151,16 @@
 <img src="reports/shap_beeswarm_abstencao.png">
 
 # 6. Estrutura de pastas do projeto
-- Input: Contém o produto da limpeza de dados, o arquivo clean_df.parquet, utilizado como dado bruto em todos os notebooks e arquivos do projeto.
+- Input: Contém o produto da limpeza de dados, o arquivo clean_df.parquet, utilizado como dado bruto em todos os notebooks e arquivos do projeto. Além dos arquivos fonte com os microdados do enem (link para download).
 - Notebooks: Contém os notebooks de limpeza de dados, análise exploratória de dados (desempenho e abstenção) e modelagem de abstenção.
 - Reports: Contém imagens para documentação.
 - Src: Contém todos os scripts .py, incluindo utils, exceções e logger.
+- requirements.txt: Arquivo contendo as dependências do projeto e suas respectivas versões para reprodutibilidade.
 
-# 9. Tecnologias utilizadas
+# 7. Tecnologias utilizadas
 - As tecnologias e ferramentas utilizadas foram Python (Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn, Optuna), Jupyter Notebook, Git e Github (controle de versão), algoritmos de machine learning para classificação, estatística, UV (isolamento e gestão de dependências) e Visual Studio Code (ambiente de desenvolvimento do projeto).
 
-# 10. Execute o projeto na sua máquina
+# 8. Execute o projeto na sua máquina
 - Pré-requisitos:
 
 - Antes de começar, certifique-se de ter os seguintes itens instalados em sua máquina:
@@ -205,10 +206,10 @@ pip install -r requirements.txt
 deactivate
 </pre>
 
-# 8. Acesso aos dados
+# 9. Acesso aos dados
 - Os dados podem ser encontrados em: https://download.inep.gov.br/microdados/microdados_enem_2023.zip
 
-# 12. Contato
+# 10. Contato
 - Linkedin: https://www.linkedin.com/in/pedro-almeida-ds/
 - Github: https://github.com/allmeidaapedro
 - Gmail: pedrooalmeida.net@gmail.com
