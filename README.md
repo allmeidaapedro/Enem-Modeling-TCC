@@ -25,7 +25,7 @@
     - Otimização de memória: Conversão de variáveis a tipos de dados menores, a fim de melhorar a performance, possibilitando a leitura e manipulação dos dados em menor tempo, sem que haja a perda de informação. Colunas 'object' foram convertidas a 'category', colunas 'float64' foram convertidas a 'float32' e colunas 'int64' foram convertidas a 'int8'.
     - Tudo foi salvo em um arquivo parquet, de forma a agilizar a leitura e manter os tipos convertidos do tópico acima.
 - Como resultado da limpeza, foi possível reduzir o tamanho do dataset de +2 GB para +243.4 MB, quase 10%!
-- [Clique aqui para acessar a limpeza de dados](https://github.com/allmeidaapedro/Enem-Analysis/blob/main/notebooks/1_data_cleaning.ipynb)
+- [Clique aqui para acessar a limpeza de dados](https://github.com/allmeidaapedro/Enem-Modeling-TCC/blob/main/notebooks/1_data_cleaning.ipynb)
 
 <img src="reports/data_cleaning.png">
 
@@ -41,7 +41,7 @@
     - De que forma a falta de acesso a recursos tecnológicos (celular, computador e internet) em casa impactam o desempenho do candidato?
     - De que forma o tipo de escola (pública ou privada) influencia o desempenho do candidato?
     - Existe alguma correlação entre o número de pessoas em casa e a nota geral do candidato?
-- [Clique aqui para acessar a análise de desempenho](https://github.com/allmeidaapedro/Enem-Analysis/blob/main/notebooks/2_eda.ipynb)
+- [Clique aqui para acessar a análise de desempenho](https://github.com/allmeidaapedro/Enem-Modeling-TCC/blob/main/notebooks/2_eda.ipynb)
 
 # 3.1 Principais insights - Análise de desempenho
 - A nota média geral no enem de 2023 é aproximadamente 540. 
@@ -92,7 +92,7 @@
     - Quais regiões apresentam as maiores e as menores taxas de abstenção?
     - Existe alguma diferença na taxa de abstenção entre alunos de escola pública e privada?
     - A ocupação do pai e da mãe influenciam a ausência do candidato na prova?
-- [Clique aqui para acessar a análise de abstenção](https://github.com/allmeidaapedro/Enem-Analysis/blob/main/notebooks/2_eda.ipynb)
+- [Clique aqui para acessar a análise de abstenção](https://github.com/allmeidaapedro/Enem-Modeling-TCC/blob/main/notebooks/2_eda.ipynb)
 
 # 4.1 Principais insights - Análise de abstenção
 - Ambos os dias de prova apresentam altas taxas de abstenção. Para o primeiro dia (provas de linguagens e ciências humanas) temos uma taxa de aproximadamente 28%, contra 32% para o segundo dia (ciências da natureza e matemática). Isso é preocupante, principalmente porque a enorme maioria dessas ausências não se devem a razões randômicas, mas sim por falta de preparo/confiança do candidato para realizar a prova. O governo deve trabalhar para mitigar essa problemática.
@@ -138,7 +138,7 @@
     - Para renda, menores valores acarretam um aumento na log-odds e na probabilidade de abstenção.
     - Todas as interpretações condizem com a lógica e os insights da análise exploratória, provando que o modelo toma decisões de acordo com a realidade e não de forma aleatória.
 
-- [Clique aqui para acessar a modelagem de abstenção](https://github.com/allmeidaapedro/Enem-Analysis/blob/main/notebooks/4_modelling_abstencao.ipynb)
+- [Clique aqui para acessar a modelagem de abstenção](https://github.com/allmeidaapedro/Enem-Modeling-TCC/blob/main/notebooks/3_modeling_abstencao.ipynb)
 
 | Model   | Accuracy | Precision | Recall   | F1-Score | ROC-AUC  | KS       | Gini     | PR-AUC   | Brier    |
 |---------|----------|-----------|----------|----------|----------|----------|----------|----------|----------|
@@ -206,7 +206,7 @@ deactivate
 </pre>
 
 # 8. Acesso aos dados
-- Os dados podem ser encontrados em: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados
+- Os dados podem ser encontrados em: https://download.inep.gov.br/microdados/microdados_enem_2023.zip
 
 # 12. Contato
 - Linkedin: https://www.linkedin.com/in/pedro-almeida-ds/
